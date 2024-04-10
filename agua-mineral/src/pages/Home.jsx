@@ -1,12 +1,11 @@
 import React from 'react'
 import '../css/App.css'
+import NavBar from '../components/NavBar'
 
 function Home(){
     return(
 
-        <div className="bg-blue-500 text-white p-4">
-            Olá, mundo!
-        </div>
+        <NavBar />
     )
 }
 export default Home
