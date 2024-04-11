@@ -1,9 +1,12 @@
 import React from "react"
 import Logo from '../assets/fiveicon.png'
 
-function Section01(){
+
+function Section01({style}){
+
+   
     return(
-        <section className="bg-whait py-20">
+        <section className="bg-whait py-20" >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
                         <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Bem Vindo a Água Mineral Jupiá</h2>

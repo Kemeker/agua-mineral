@@ -5,8 +5,8 @@ import Instagram from '../assets/instagram.png'
 
 function Footer(){
     return(
-        <footer className="bg-gray-800 text-white flex row-auto bg-gray-800 text-white">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
+        <footer className="bg-gray-800 text-white flex row-auto bg-gray-800 text-white ">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8  min-h-screen" > 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                     
                     <div>
