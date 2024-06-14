@@ -1,19 +1,28 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, BrowserRouter} from 'react-router-dom';
+
+// import das paginas
 import Home from '../src/pages/Home';  
+import NotFound from '../src/pages/NotFound'
 
-
-
+// import de componentes
+import Header from '../src/components/NavBar'
 
 
 
 const AppRoutes = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} /> 
       
-      
-    </Routes>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          
+          <Route path="/" element={<Home />} /> 
+          <Route path='/*' element={<NotFound />} />
+          
+          
+        </Routes>
+        </BrowserRouter>
   );
 };
 

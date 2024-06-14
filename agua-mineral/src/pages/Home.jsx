@@ -14,7 +14,7 @@ function Home(){
     return(
         
         <div style={style}>
-            <NavBar />
+            
             <Section01  />
             <Footer />
         </div>

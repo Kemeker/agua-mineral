@@ -1,10 +1,11 @@
-import React from "react"
+import {Link} from 'react-router-dom'
 import Logo from '../assets/fiveicon.png'
 
 
 function NavBar(){
 
  return(
+    <header>
                 <div className="bg-gray-800 text-white">
                     <div className="max-w-7x1 mx-auto px-2 sm:px-6 lg:px-1">
                         <div className="relative flex items-center justify-between h-16">
@@ -21,7 +22,7 @@ function NavBar(){
                             <div className="hidden sm:block sm:ml-6">
                                     <div className="flex space-x-4">
                                 
-                                        <a href="#" className="px-4 py-2 rounded-md text-sm font-medium bg-gray-900 text-white">Home</a>
+                                        <Link to={'/'} className="px-4 py-2 rounded-md text-sm font-medium bg-gray-900 text-white">Home</Link>
                                         
                                     </div>
                                 </div>
@@ -39,6 +40,7 @@ function NavBar(){
                         </div>
                     </div>
                 </div>
+    </header>            
     
 
     )
